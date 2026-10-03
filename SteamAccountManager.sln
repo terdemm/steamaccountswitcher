@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamAccountManager.CLI", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamAccountManager.CLI.Tests", "SteamAccountManager.CLI.Tests\SteamAccountManager.CLI.Tests.csproj", "{FC8886EA-C27C-41AB-881A-A47D7BF25812}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamAccountSwitcher.Launcher", "SteamAccountSwitcher.Launcher\SteamAccountSwitcher.Launcher.csproj", "{E55A7313-29D5-4EF0-A753-4F1621C96D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,26 @@ Global
 		{FC8886EA-C27C-41AB-881A-A47D7BF25812}.Release|x64.Build.0 = Release|Any CPU
 		{FC8886EA-C27C-41AB-881A-A47D7BF25812}.Release|x86.ActiveCfg = Release|Any CPU
 		{FC8886EA-C27C-41AB-881A-A47D7BF25812}.Release|x86.Build.0 = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|x64.Build.0 = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|ARM.Build.0 = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|ARM64.Build.0 = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|x64.ActiveCfg = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|x64.Build.0 = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E55A7313-29D5-4EF0-A753-4F1621C96D3A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
