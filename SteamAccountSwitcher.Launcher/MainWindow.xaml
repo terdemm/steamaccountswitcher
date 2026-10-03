@@ -259,7 +259,7 @@
                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="16,14">
                     <ItemsControl ItemsSource="{Binding Accounts}">
                         <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type vm:MainViewModel}">
+                            <DataTemplate>
                                 <!-- Account Card -->
                                 <Border Margin="0,0,0,10"
                                         Background="{StaticResource BrushBgCard}"
@@ -486,7 +486,7 @@
             <Border Grid.Row="0" Grid.RowSpan="4"
                     Background="#cc0d1117"
                     CornerRadius="10"
-                    Visibility="{Binding EditingAccount, Converter={StaticResource StringNotEmptyToVis}}"
+                    Visibility="{Binding IsEditingAccount, Converter={StaticResource BoolToVis}}"
                     Panel.ZIndex="100">
                 <Border Background="{StaticResource BrushBgCard}"
                         BorderBrush="{StaticResource BrushBorder}"

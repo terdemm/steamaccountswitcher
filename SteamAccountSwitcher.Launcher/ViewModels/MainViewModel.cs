@@ -108,8 +108,15 @@ namespace SteamAccountSwitcher.Launcher.ViewModels
         public SteamAccount? EditingAccount
         {
             get => _editingAccount;
-            set { _editingAccount = value; OnPropertyChanged(); }
+            set
+            {
+                _editingAccount = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(IsEditingAccount));
+            }
         }
+
+        public bool IsEditingAccount => _editingAccount != null;
 
         // Account edit temporary properties
         private string _editNote = string.Empty;

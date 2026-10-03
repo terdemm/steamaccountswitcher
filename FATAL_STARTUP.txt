@@ -1,0 +1,19 @@
+[3.10.2026 18:39:21] Crash in MainWindow_Initialization:
+System.Windows.Markup.XamlParseException: 'System.Windows.FrameworkTemplate.Template' özelliğini ayarlama işlemi özel durum döndürdü.
+ ---> System.InvalidOperationException: 'Visibility' özelliği aynı anda hem bir özellik tetikleyicisinden ayarlanıp, hem de tetikleyicinin koşulunda görünemez.
+   at System.Windows.TriggerBase.Seal()
+   at System.Windows.Trigger.Seal()
+   at System.Windows.TriggerCollection.Seal()
+   at System.Windows.Style.Seal()
+   at System.Windows.TemplateContent.ParseXaml()
+   at System.Windows.FrameworkTemplate.set_Template(TemplateContent value)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at SteamAccountSwitcher.Launcher.MainWindow.InitializeComponent()
+   at SteamAccountSwitcher.Launcher.MainWindow..ctor()
+   at SteamAccountSwitcher.Launcher.App.OnStartup(StartupEventArgs e)
