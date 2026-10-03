@@ -1,6 +1,7 @@
 # 🎮 Steam Account Switcher Pro
 
-[![Release](https://img.shields.io/badge/Release-v2.0.0-blue.svg)](https://github.com/terdemm/steamaccountswitcher/releases)
+[![Release](https://img.shields.io/badge/Release-v2.0.0-blue.svg)](https://github.com/terdemm/steamaccountswitcher/releases/tag/v2.0.0)
+[![Download EXE](https://img.shields.io/badge/Download-SteamAccountSwitcher.exe-brightgreen.svg)](https://github.com/terdemm/steamaccountswitcher/releases/download/v2.0.0/SteamAccountSwitcher.exe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078d7.svg)]()
 [![.NET](https://img.shields.io/badge/.NET-8.0%20WPF-512bd4.svg)]()
@@ -15,37 +16,7 @@
 
 ## 🌟 Acknowledgments & Credits
 
-This project was built upon and inspired by the foundational concepts of the original open-source [sahin-a/SteamAccountSwitcher](https://github.com/sahin-a/SteamAccountSwitcher) repository. We express our gratitude to **sahin-a** and all contributors for providing the initial Steam VDF parsing and registry switching research. This fork completely modernizes the architecture into a rich, self-contained single-file `.exe` with native WPF hardware acceleration, custom account notes, fast app launching, and system tray management.
-
----
-
-## 📸 Interface & Visual Preview
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🎮 STEAM LAUNCHER PRO                                                       —  ◻  ✕   │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  🔍 [ Hesap adı, etiket veya not ara...    ]  [🔄 Yenile] [➕ Hesap Ekle] [🛑 Kapat] ⚙ │
-│  [ Tüm Hesaplar (3) ]   [ ★ Favoriler ]   [ 🟢 Aktif Oturum ]                         │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ ┌────────────────────────────────────────────────────────────────────────────────────┐ │
-│ │ [AVATAR]  ProGamer99  🟢 AKTİF OTURUM  [Main Account]   Lvl 45                     │ │
-│ │           @progamer_main • SteamID: 76561198000000001                              │ │
-│ │           "Ana dereceli hesap - CS2 Global"                                        │ │
-│ │           Son Giriş: 03.10.2026 18:20        [★] [📝 Not] [📋 ID] [🌐 Profil]     │ │
-│ │                                              [ 🚀 GEÇİŞ YAP & BAŞLAT ]            │ │
-│ └────────────────────────────────────────────────────────────────────────────────────┘ │
-│ ┌────────────────────────────────────────────────────────────────────────────────────┐ │
-│ │ [AVATAR]  SmurfKing                    [CS2 Smurf]                                │ │
-│ │           @smurf_king99 • SteamID: 76561198000000002                               │ │
-│ │           "Arkadaşlarla eğlence hesabı"                                            │ │
-│ │           Son Giriş: 02.10.2026 21:15        [☆] [📝 Not] [📋 ID] [🌐 Profil]     │ │
-│ │                                              [ 🚀 GEÇİŞ YAP & BAŞLAT ]            │ │
-│ └────────────────────────────────────────────────────────────────────────────────────┘ │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 🟢 Steam Çalışıyor (PID: 14820)    Aktif Oturum: progamer_main        Toplam 2 Hesap   │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+This project was built upon and inspired by the foundational concepts of the original open-source [sahin-a/SteamAccountSwitcher](https://github.com/sahin-a/SteamAccountSwitcher) repository. We express our gratitude to **sahin-a** and all contributors for providing the initial Steam VDF parsing and registry switching research. This project completely modernizes the architecture into a rich, self-contained single-file `.exe` with native WPF hardware acceleration, custom account notes, fast app launching, and system tray management.
 
 ---
 
@@ -84,7 +55,7 @@ This project was built upon and inspired by the foundational concepts of the ori
 
 ### 📥 Download & Usage
 
-1. Download **`SteamAccountSwitcher.exe`** from [Releases](https://github.com/terdemm/steamaccountswitcher/releases) (or grab the root `.exe`).
+1. Download **`SteamAccountSwitcher.exe`** directly from [Releases](https://github.com/terdemm/steamaccountswitcher/releases/tag/v2.0.0).
 2. Run `SteamAccountSwitcher.exe` anywhere (Desktop, USB, or Documents).
 3. All accounts remembered by Steam will be automatically listed.
 4. Click **"🚀 GEÇİŞ YAP" (SWITCH)** to switch to any account!
@@ -143,7 +114,7 @@ dotnet publish SteamAccountSwitcher.Launcher/SteamAccountSwitcher.Launcher.cspro
 
 ### 🛠️ Nasıl Kullanılır?
 
-1. **`SteamAccountSwitcher.exe`** dosyasını indirin ve çift tıklayarak çalıştırın.
+1. **[Releases Bölümünden](https://github.com/terdemm/steamaccountswitcher/releases/tag/v2.0.0)** **`SteamAccountSwitcher.exe`** dosyasını indirin ve çift tıklayarak çalıştırın.
 2. Bilgisayarınızda kayıtlı tüm Steam hesapları otomatik olarak listelenecektir.
 3. Geçmek istediğiniz hesabın yanındaki **"🚀 GEÇİŞ YAP"** butonuna basmanız yeterlidir.
 4. Yeni bir hesap eklemek isterseniz üst bardaki **"➕ Hesap Ekle"** butonuna basın; açılan Steam giriş ekranında *"Beni Hatırla"* kutucuğunu işaretleyerek oturum açın.
